@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+
+/* nav rules */
+nav {
+    background-color: black;
+    min-height: 60px;
+    padding: 0.5em;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#links, #links ul {
+    display: flex;
+    align-items: center;
+}
+
+#links ul {
+    margin-left: 50px;
+    list-style: none;
+}
+#links ul li{
+    margin-left: 15px;
+}
+
+ul li {
+    opacity: 0.75;
+    color: white
+}
+ul a {
+    color:white;
+    text-decoration: none;
+}
+
+ul li:hover {
+    opacity: 1.0;
+
+}
+
+button {
+    background-color: aqua;
+    color: white;
+    margin-top: 8px;
+    height: 25px;
+    align-items: center;
+    padding: 5px;
+}
+
+/* utility class */
+
+.container {
+    /* background-color: lavender; */
+    width: 900px;
+    min-height: 400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#frontcontent {
+    /* background-color: green; */
+    min-height: 600px;
+    width: 500px;
+    
+}
+
+#backcontent {
+    /* background-color: greenyellow; */
+    min-height: 300px;
+    width: 300px;
+}
+
+.flexed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+.navbar {
+    background-color: aqua;
+    height: 50px;
+    padding: 0.5em;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* usercard rules */
+#usercard {
+    /* background-color: rebeccapurple; */
+    height: 320px;
+    outline: 5px solid grey;
+    margin-bottom: 20px;
+}
+
+.cardbody-text {
+    margin-left: 5px;
+}
+
+.card-header {
+    background-color: cyan;
+    min-height: 60px;
+    padding: 0.5em;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.avatar-u {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.card-body {
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.card-body p {
+    margin: 15px 0px;
+}
+.avatar-m {
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;;
+}
+
+.avatar-g {
+    height: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.card-body a {
+    color: blue;
+}
+
+/* educard card rules */
+#educard {
+    /* background-color: pink; */
+    height: 175px;
+    outline: 5px solid grey;
+
+}
+
+#educard-description {
+    padding: 10px;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+#greytext {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+/* requestbox rules */
+#requestbox {
+    /* background-color: tomato; */
+    height: 170px;
+    outline: 5px solid grey;
+    margin-bottom: 20px;
+}
+
+#requestbox-text {
+    display: flex;
+}
+
+.connections {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 30px;
+
+}
+
+.connections-r {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+.avatar-s {
+    width: 30px;
+    height: 30px;
+}
+
+/* friendsbox rules */
+#friendsbox {
+    /* background-color: khaki; */
+    height: 300px;
+    outline: 5px solid grey;
+}
+
+.connections2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 30px;
+
+}
+
+.connections-s {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+    order: 5;
+}
+
+.linkbox {
+    /* background-color: deeppink; */
+    margin-top: 20px;
+    padding: 15px; 20px;
+    outline: 5px solid grey;
+}
